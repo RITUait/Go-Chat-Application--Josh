@@ -1,0 +1,79 @@
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ go build 
+# github.com/gautamrege/gochat
+./handle.go:54:10: syntax error: unexpected :=, expecting expression
+./handle.go:57:2: syntax error: unexpected }, expecting expression
+./handle.go:60:2: syntax error: unexpected return, expecting expression
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ go build 
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ go build 
+# github.com/gautamrege/gochat
+./handle.go:56:18: v.name undefined (type api.Handle has no field or method name, but does have Name)
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ go build 
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ go build 
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ go build 
+# github.com/gautamrege/gochat
+./main.go:93:30: cannot use cmd[1] (type byte) as type string in argument to USERS.Get
+./server.go:20:22: req.From.name undefined (type *api.Handle has no field or method name, but does have Name)
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ go build 
+# github.com/gautamrege/gochat
+./main.go:93:30: cannot use cmd[1] (type byte) as type string in argument to USERS.Get
+./server.go:20:21: invalid indirect of req.From.Name (type string)
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ go build 
+# github.com/gautamrege/gochat
+./main.go:93:33: cmd[1].string undefined (type byte has no field or method string)
+./server.go:20:21: invalid indirect of req.From.Name (type string)
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ go build 
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ ./gochat -name ritu -host 192.168.1.150 -port 23458
+> ^C
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ clr
+No command 'clr' found, did you mean:
+ Command 'car' from package 'ucommon-utils' (universe)
+ Command 'csr' from package 'rheolef' (universe)
+ Command 'cl' from package 'cl-launch' (universe)
+ Command 'clp' from package 'coinor-clp' (universe)
+ Command 'mlr' from package 'miller' (universe)
+ Command 'clm' from package 'mcl' (universe)
+ Command 'cyr' from package 'console-cyrillic' (universe)
+ Command 'cli' from package 'mono-runtime' (main)
+clr: command not found
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ clear
+
+krishna@krishna-lenovo-v110-15isk ~/work/src/github.com/gautamrege/gochat (master) $ ./gochat -name ritu -host 192.168.1.150 -port 23458
+> /users
+ashleshaArchitabhavin192Kasturishailesh
+> @shailesh hello
+> 
+@pranoti says: "hello "
+> 
+@pallavi says: "hello"
+> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
